@@ -1,1 +1,1 @@
-# Java-Programming-Lab-Practice
+# java-lab-practice
