@@ -7,7 +7,7 @@
 
 # 2. Data
 - Torchvision을 통해 해당 데이터셋을 다운로드 받음.
-- train.py 안에 data_path가 '../data'로 지정되어있음 따라서 해당 train.py가 있는 폴더의 상위 폴더에 data 폴더를 생성하고 해당 코드를 진행함. 
+- train.py 안에 data_path가 '../data'로 지정되어있음 따라서 해당 train.py가 있는 폴더의 상위 폴더에 data 폴더를 미리 생성하고 해당 코드를 진행함. 
 
 # 3. Eval.py
 - eval.py 안의 show_result 함수로 한 이미지를 inference하고 해당 결과를 시각적으로 볼 수 있음.
