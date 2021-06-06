@@ -1,4 +1,6 @@
 # Requiremetns
+- python 3.8.5
+- Ubuntu 18.04LTS
 - pytorch 1.7.1
 - opencv-python 4.5.1.48
 - torchvision 0.8.2
