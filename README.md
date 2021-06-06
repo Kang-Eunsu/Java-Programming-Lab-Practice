@@ -38,7 +38,7 @@
 - 100 epoch 당 약 3시간 30분 소요됨.
 
 # 6. Train Command
-- python 2019312406_강은수_train.py
+- python train_2019312406.py
 
 # 7. Eval Command
-- python 2019312406_강은수_eval.py
+- python test_2019312406.py
