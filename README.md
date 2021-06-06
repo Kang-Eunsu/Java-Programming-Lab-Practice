@@ -11,6 +11,7 @@ train.py 안에 data_path가 '../data'로 지정되어있음 따라서 해당 tr
 
 # 3. Eval.py
 eval.py 안의 show_result 함수로 한 이미지를 inference하고 해당 결과를 시각적으로 볼 수 있음.
-
+show_result의 parameter 중 index를 이용하여 dataset에 접근함. 
+터미널에서 사진이 안 떠 본인은 vscode의 #%% 구문을 추가하여 jupyter extension에서 사진들을 확인하였음.
 eval.py 안의 test 함수로 validation set을 이용한 mAP 값을 추출해냄.
 
