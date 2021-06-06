@@ -32,6 +32,8 @@
 - 모델을 통해 추출되는 것은 지정한 8578개의 모든 bounding box와 해당 class에 대한 confidence가 나오게 됨.
 - detect_objects 함수의 parameter로는 min_score, 사용할 bounding box의 minimum confidence / max_overlap, 두 개의 bounding box가 가질 수 있는 maximum overlapping / top_k, min_score을 통해 추출된 bounding box들이 top_k 수보다 많을 경우 상위(confidence 기준) top_k개의 bounding boxes만 필터링 가 있음.
 - 실제 bounding box 좌표를 구하기 위해선 detect_objects 함수를 통해 도출된 box에 original dim인 (300,300,300,300)을 곱해줘야 한다. 이는 eval.py의 show_result 함수에서 확인할 수 있다.
+- detected class는 0-19 사이의 id로 나오는데 class list에 접근하기 위해 int로 형태를 바꿔줘야 한다.
+
 # 5. Learning time
 - 100 epoch 당 약 3시간 30분 소요됨.
 
