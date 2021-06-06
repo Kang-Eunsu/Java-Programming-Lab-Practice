@@ -1,9 +1,9 @@
 # 1. Model pth file
-모델 pth가 저장되는 경로는 train.py 안에 pth_path로 지정하였음.
-학습에는 train set만 이용함.
-'epoch' : epoch 수
-'model_state_dict' : 학습된 모델 상태(weights)
-'optimizer_state_dict' : optimizer(SGD) 상태
+- 모델 pth가 저장되는 경로는 train.py 안에 pth_path로 지정하였음.
+- 학습에는 train set만 이용함.
+- 'epoch' : epoch 수
+- 'model_state_dict' : 학습된 모델 상태(weights)
+- 'optimizer_state_dict' : optimizer(SGD) 상태
 
 # 2. Data
 Torchvision을 통해 해당 데이터셋을 다운로드 받음.
