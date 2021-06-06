@@ -1,3 +1,14 @@
+# Requiremetns
+- pytorch 1.7.1
+- opencv-python 4.5.1.48
+- torchvision 0.8.2
+- numpy 1.19.2
+- matplotlib 3.3.4
+- xml
+- pillow 8.1.0
+- albumentations 0.5.2
+- tqdm 4.60.0
+
 # 1. Model pth file
 - 모델 pth가 저장되는 경로는 train.py 안에 pth_path로 지정하였음.
 - 학습에는 train set만 이용함.
@@ -21,3 +32,9 @@
 
 # 5. Learning time
 - 100 epoch 당 3시간 30분 소요됨.
+
+# 6. Train Command
+- python 2019312406_강은수_train.py
+
+# 7. Eval Command
+- python 2019312406_강은수_eval.py
